@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: GPL-2.0
+#
+# ATJAHMIT DRIVERS
+#
+
+menu "ATJHAMIT DRIVERS"
+
+config DRV_ATJHAMIT
+    tristate "atjhamit : special driver"
+    default y
+    help
+        Say Y to support /dev/atjhamit device;
+        The /dev/atjhamit is used to access nothing.
+endmenu

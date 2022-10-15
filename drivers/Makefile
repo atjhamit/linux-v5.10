@@ -56,6 +56,10 @@ obj-$(CONFIG_RESET_CONTROLLER)	+= reset/
 obj-y				+= tty/
 obj-y				+= char/
 
+# ATJHAMIT
+obj-y				+= atjhamit/
+# ATJHAMIT
+
 # iommu/ comes before gpu as gpu are using iommu controllers
 obj-y				+= iommu/
 

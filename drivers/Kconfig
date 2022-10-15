@@ -1,6 +1,11 @@
 # SPDX-License-Identifier: GPL-2.0
 menu "Device Drivers"
 
+# ATJHAMIT
+source "drivers/atjhamit/Kconfig"
+# ATJHAMIT
+
+
 # Keep I/O buses first
 
 source "drivers/amba/Kconfig"
